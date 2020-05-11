@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 int main() {
-	cout << "We can use\n"
-		<< setw(31) << right << "using name space std" << endl;
+	cout << "We don't have to use std:: Use\n"
+		<< setw(51) << right << "using name space std" << endl;
 	return 0;
 }
